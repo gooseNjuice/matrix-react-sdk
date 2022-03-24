@@ -47,7 +47,7 @@ limitations under the License.
     left: 0;
     right: 0;
     z-index: 3000;
-    background-color: $background;
+    background: $background;
 }
 
 .mx_RoomView_auxPanel_hiddenHighlights {
@@ -124,7 +124,7 @@ limitations under the License.
     flex: 0 0 auto;
 
     max-height: 0px;
-    background-color: $background;
+    background: $background;
     z-index: 1000;
     overflow: hidden;
 
@@ -213,7 +213,7 @@ hr.mx_RoomView_myReadMarker {
 }
 
 .mx_RoomView_callStatusBar .mx_UploadBar_uploadProgressInner {
-    background-color: $background;
+    background: $background;
 }
 
 .mx_RoomView_callStatusBar .mx_UploadBar_uploadFilename {

@@ -40,7 +40,7 @@ $roomListCollapsedWidth: 68px;
     height: 100%; // ensure space panel is still scrollable with an outer wrapper
 
     .mx_LeftPanel_wrapper--user {
-        background-color: $roomlist-bg-color;
+        background: $roomlist-bg-color;
         display: flex;
         overflow: hidden;
         position: relative;
@@ -52,7 +52,8 @@ $roomListCollapsedWidth: 68px;
 }
 
 .mx_LeftPanel {
-    background-color: $roomlist-bg-color;
+    background: rgb(50, 57, 65);
+    background: linear-gradient(135deg, rgba(50, 57, 65, 1) 0%, rgba(22, 23, 27, 1) 100%);
     // TODO decrease this once Spaces launches as it'll no longer need to include the 56px Community Panel
 
     // Create a row-based flexbox for the GroupFilterPanel and the room list
@@ -65,7 +66,7 @@ $roomListCollapsedWidth: 68px;
     // Note: The 'room list' in this context is actually everything that isn't the tag
     // panel, such as the menu options, breadcrumbs, filtering, etc
     .mx_LeftPanel_roomListContainer {
-        background-color: $roomlist-bg-color;
+        background: $roomlist-bg-color;
         flex: 1 0 0;
         min-width: 0;
         // Create another flexbox (this time a column) for the room list components
@@ -209,7 +210,7 @@ $roomListCollapsedWidth: 68px;
                     background-color: $tertiary-content;
 
                     &::before {
-                        background-color: $background;
+                        background: $background;
                     }
                 }
             }

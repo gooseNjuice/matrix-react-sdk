@@ -17,7 +17,7 @@ limitations under the License.
 .mx_RoomHeader {
     flex: 0 0 50px;
     border-bottom: 1px solid $primary-hairline-color;
-    background-color: $background;
+    background: $background;
 
     .mx_RoomHeader_e2eIcon {
         height: 12px;
@@ -75,7 +75,7 @@ limitations under the License.
 
 .mx_RoomHeader_buttons {
     display: flex;
-    background-color: $background;
+    background: $background;
 }
 
 .mx_RoomHeader_info {

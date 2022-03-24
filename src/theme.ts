@@ -20,7 +20,7 @@ import SettingsStore from "./settings/SettingsStore";
 import ThemeWatcher from "./settings/watchers/ThemeWatcher";
 import { compare } from "./utils/strings";
 
-export const DEFAULT_THEME = "light";
+export const DEFAULT_THEME = "dark";
 const HIGH_CONTRAST_THEMES = {
     "light": "light-high-contrast",
 };

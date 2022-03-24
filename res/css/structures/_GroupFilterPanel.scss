@@ -86,7 +86,7 @@ $groupFilterPanelWidth: 56px; // only applies in this file, used for calculation
 }
 
 .mx_GroupFilterPanel .mx_TagTile.mx_TagTile_selected_prototype {
-    background-color: $background;
+    background: $background;
     border-radius: 6px;
 }
 

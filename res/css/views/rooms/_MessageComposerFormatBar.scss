@@ -21,7 +21,7 @@ limitations under the License.
     position: absolute;
     cursor: pointer;
     border-radius: 8px;
-    background-color: $background;
+    background: $background;
     border: 1px solid $input-border-color;
     user-select: none;
     // equal to z-index of mx_ReplyPreview and mx_RoomView_statusArea (1000)

@@ -365,7 +365,7 @@ limitations under the License.
 
                 // This is the same color as the left panel background because it needs
                 // to occlude the sublist title
-                background-color: $roomlist-bg-color;
+                background: $roomlist-bg-color;
 
                 &::before {
                     top: 0;

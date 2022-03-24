@@ -100,7 +100,7 @@ limitations under the License.
 
     .mx_AutoHideScrollbar {
         background: #fff;
-        background-color: $background;
+        background: $background;
         border-radius: 8px;
         width: calc(100% - 16px);
         padding-right: 16px;
@@ -160,7 +160,7 @@ limitations under the License.
     }
 
     .mx_MessageComposer {
-        background-color: $background;
+        background: $background;
         border-radius: 8px;
         margin-top: 8px;
         padding: 0 8px;

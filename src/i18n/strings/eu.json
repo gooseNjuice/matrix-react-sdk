@@ -1623,7 +1623,7 @@
     "Your homeserver does not support cross-signing.": "Zure hasiera-zerbitzariak ez du zeharkako sinatzea onartzen.",
     "Homeserver feature support:": "Hasiera-zerbitzariaren ezaugarrien euskarria:",
     "exists": "badago",
-    "%(brand)s is missing some components required for securely caching encrypted messages locally. If you'd like to experiment with this feature, build a custom %(brand)s Desktop with <nativeLink>search components added</nativeLink>.": "%(brand)s-ek zifratutako mezuak cache lokalean modu seguruan gordetzeko elementu batzuk faltan ditu. Ezaugarri honekin esperimentatu nahi baduzu, konpilatu pertsonalizatutako %(brand)s Desktop <nativeLink> bilaketa osagaiekin</nativeLink>.",
+    "%(brand)s is missing some components required for securely caching encrypted messages locally. If you'd like to experiment with this feature, build a custom %(brand)s Desktop with <nativeLink>search components added</nativeLink>.": "%(brand)s-ek zifratutako mezuak cache lokalean modu seguruan gordetzeko Unplugged Systemsu batzuk faltan ditu. Ezaugarri honekin esperimentatu nahi baduzu, konpilatu pertsonalizatutako %(brand)s Desktop <nativeLink> bilaketa osagaiekin</nativeLink>.",
     "Backup has a signature from <verify>unknown</verify> session with ID %(deviceId)s": "Babes-kopiak %(deviceId)s ID-a duen erabiltzaile <verify>ezezagun</verify> baten sinadura du",
     "Accepting…": "Onartzen…",
     "Not Trusted": "Ez konfiantzazkoa",
