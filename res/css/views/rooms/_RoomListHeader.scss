@@ -91,7 +91,7 @@ limitations under the License.
             background-color: $tertiary-content;
 
             &::before {
-                background-color: $background;
+                background: $background;
             }
         }
     }

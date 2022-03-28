@@ -21,7 +21,7 @@ import { replaceableComponent } from "../../../utils/replaceableComponent";
 @replaceableComponent("views.auth.AuthBody")
 export default class AuthBody extends React.PureComponent {
     public render(): React.ReactNode {
-        return <div className="mx_AuthBody">
+        return <div className="mx_AuthBody gradient">
             { this.props.children }
         </div>;
     }

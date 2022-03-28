@@ -67,7 +67,7 @@ limitations under the License.
     }
 
     &.mx_RoomSearch_focused, &.mx_RoomSearch_hasQuery {
-        background-color: $background;
+        background: $background;
 
         .mx_RoomSearch_clearButton {
             width: 16px;
@@ -112,7 +112,7 @@ limitations under the License.
             background-color: $tertiary-content;
 
             .mx_RoomSearch_icon {
-                background-color: $background;
+                background: $background;
             }
         }
     }
@@ -139,12 +139,12 @@ limitations under the License.
             }
 
             .mx_RoomSearch_shortcutPrompt {
-                background-color: $background;
+                background: $background;
                 color: $secondary-content;
             }
 
             .mx_RoomSearch_icon {
-                background-color: $background;
+                background: $background;
             }
         }
     }

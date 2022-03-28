@@ -62,7 +62,7 @@ html {
 body {
     font-family: $font-family;
     font-size: $font-15px;
-    background-color: $background;
+    background: $background;
     color: $primary-content;
     border: 0px;
     margin: 0px;
@@ -233,7 +233,7 @@ legend {
     :not(.mx_textinput):not(.mx_Field):not(.mx_no_textinput) > input[type=search],
     .mx_textinput {
         color: $input-darker-fg-color;
-        background-color: $background;
+        background: $background;
         border: none;
     }
 }
@@ -291,7 +291,7 @@ legend {
 }
 
 .mx_Dialog {
-    background-color: $background;
+    background: $background;
     color: $light-fg-color;
     z-index: 4012;
     font-weight: 300;
@@ -545,7 +545,7 @@ legend {
     border: 1px solid $input-border-color;
     padding: 9px;
     color: $primary-content;
-    background-color: $background;
+    background: $background;
 }
 
 .mx_textButton {

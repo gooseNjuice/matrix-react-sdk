@@ -84,7 +84,7 @@ export interface IConfigOptions {
 
     mobile_guide_toast?: boolean;
 
-    default_theme?: "light" | "dark" | string; // custom themes are strings
+    default_theme?: "dark" | string; // custom themes are strings
     default_country_code?: string; // ISO 3166 alpha2 country code
     default_federate?: boolean;
     default_device_display_name?: string; // for device naming on login+registration
